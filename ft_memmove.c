@@ -6,7 +6,7 @@
 /*   By: alexgonz <alexgonz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/25 10:22:56 by alexgonz          #+#    #+#             */
-/*   Updated: 2026/10/03 14:21:50 by alexgonz         ###   ########.fr       */
+/*   Updated: 2026/10/03 22:39:17 by alexgonz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 
 void	*ft_memmove(void *to, const void *from, size_t numBytes)
 {
-	size_t				i;
 	unsigned char		*t;
 	const unsigned char	*f;
 

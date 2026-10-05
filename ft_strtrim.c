@@ -6,7 +6,7 @@
 /*   By: alexgonz <alexgonz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/27 15:31:52 by alexgonz          #+#    #+#             */
-/*   Updated: 2026/10/03 14:16:15 by alexgonz         ###   ########.fr       */
+/*   Updated: 2026/10/05 13:50:57 by alexgonz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,7 @@ static size_t	count_rl(char const *s1, char const *set)
 	i = ft_strlen(s1) - 1;
 	res = 0;
 	flag = 1;
-	while (i >= 0 && flag)
+	while (flag)
 	{
 		if (check(s1[i], set) && flag)
 			res++;
